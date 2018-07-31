@@ -48,6 +48,12 @@ Para correr los tests:
 ./vendor/bin/phpunit
 ```
 
+Si se agregan nuevas clases al código tal vez sea necesario correr:
+
+```
+composer dump-autoload
+```
+
 
 ## Iteracion 2. (14 de Agosto al 28 de Agosto)
 
