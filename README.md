@@ -65,7 +65,7 @@ No es necesario que todo el código para un issue esté funcionando al 100% ante
 Además de las tareas planteadas, cada grupo tiene tareas pendientes de la iteración anterior que debe finalizar antes de comenzar con la iteración 2. Cuando la iteración 1 este completada, [crear un tag](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Creando-etiquetas#Creando-etiquetas) llamado iteracion1:
 Y [subirlo](https://git-scm.com/book/es/v1/Fundamentos-de-Git-Creando-etiquetas#Compartiendo-etiquetas) a github
 
-**Como punto de control, alguna de estas dos funcionalidades: "Viaje plus" o "Franquicia de Boleto" tiene que estar lista para revisar a mitad de la iteración.**
+**IMPORTANTE:** Como punto de control, alguna de estas dos funcionalidades: "Viaje plus" o "Franquicia de Boleto" tiene que estar lista para revisar a mitad de la iteración. (21 de Agosto).
 
 ## Descuento de saldos.
 
