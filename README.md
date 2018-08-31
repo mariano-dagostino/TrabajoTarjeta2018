@@ -113,7 +113,8 @@ de fechas y horas en PHP: https://www.youtube.com/watch?v=dVRl1kqxdwY
 
 - La clase boleto tendrá nuevos métodos que permitan conocer:
 (Fecha, tipo de tarjeta, línea de colectivo, total abonado, saldo e
-ID de la tarjeta. Recordar que los boletos indican si se hizo un viaje plus o no y si se canceló viaje plus con el pago de este boleto.
+ID de la tarjeta. Recordar que el tipo de boleto (Normal, Viaje Plus) de los boletos indican si se hizo un viaje plus o no
+- Además el boleto tiene una descripcion extra indicando si se canceló viaje plus con el pago de este boleto (Ejemplo: Abona viajes plus 29.63 y).
 
 - Deben crearse los atributos faltantes de las correspondientes clases, si los hubiere.
 Considerar la [siguiente imagen](https://github.com/dagostinoips/TrabajoTarjeta2018/issues/4#issuecomment-417055819) para entender las posibles variaciones de un boleto:
@@ -125,7 +126,7 @@ Considerar la [siguiente imagen](https://github.com/dagostinoips/TrabajoTarjeta2
 ## Limitación en el pago de medio boletos
 
 Para evitar el uso de una tarjeta de tipo medio boleto en más de una persona en el mismo viaje se pide que:
-- Al utilizar una tarjeta de tipo medio boleto para viajar, deban pasar como mínimo 5 minutos antes de realizar otro viaje. 
+- Al utilizar una tarjeta de tipo medio boleto para viajar, deban pasar como mínimo 5 minutos antes de realizar otro viaje. No será posible pagar otro viaje antes de que pasen estos 5 minutos.
 - Escribir un test que verifique efectivamente que no se deje marcar nuevamente al intentar realizar otro viaje en un intervalo menor a 5 minutos con la misma tarjeta medio boleto.
 Para el caso de medio boleto universitario, se pueden realizar solo dos viajes por día. El tercer viaje ya posee su valor normal.
 - Escribir un test que verifique que no se puedan realizar más de dos viajes por día.
