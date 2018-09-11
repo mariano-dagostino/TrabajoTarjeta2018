@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/dagostinoips/TrabajoTarjeta2018/badge.svg?branch=master)](https://coveralls.io/github/dagostinoips/TrabajoTarjeta2018?branch=master)
+
 # Trabajo Tarjeta: Versión 2018
 
 El siguiente trabajo es un enunciado iterativo. Todas las semanas nuevos
