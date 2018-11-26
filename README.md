@@ -175,7 +175,8 @@ con la cancelación del pasaje plus.
 
 - En caso de no ser el dueño del proyecto original. Crear un Fork del mismo.
 - Las iteraciones anteriores deben estar completas en su totalidad.
-- Todos los métodos del proyecto deben tener una complejidad de A o B en Scrunitizer. 
+- Contar con un porcentaje de cobertura en coveralls del al menos el 95%.
+- Todos los **métodos** de las clases del proyecto deben tener una complejidad de A o B en Scrunitizer. 
 
 ![selection_189](https://user-images.githubusercontent.com/14078528/49026708-4f649d00-f17d-11e8-8f75-25b124710fd6.png)
 
